@@ -1,0 +1,14 @@
+/**ji-ji-ban**/
+
+#include <stdio.h>
+
+int main()
+{
+    /**名前を付けて数字を保存しておく**/
+    int unkei = 1032;
+    /**prinntfは、""の間に表記したい文字を書く**/
+    printf(" Aさん時給%d円\n", unkei);
+    unkei = unkei * 18/17;
+    printf(" Bさん時給%d円\n", unkei);
+    return 0;
+}
